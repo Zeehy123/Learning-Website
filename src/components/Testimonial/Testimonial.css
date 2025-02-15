@@ -1,0 +1,61 @@
+.testimonial {
+  padding: 80px 0;
+
+  .Testcontainer {
+    max-width: 85%;
+    margin: auto;
+
+    .items {
+      padding: 30px;
+      transition: 0.5s;
+      box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+      background-color: #fff;
+      p {
+        margin-top: 20px;
+        color: grey;
+      }
+      &:hover {
+        background-color: #495050;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .img {
+        position: relative;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+      i {
+        position: absolute;
+        bottom: 0;
+        left: 60px;
+        background-color: #495050;
+        color: #fff;
+        &:hover {
+          background-color: #fff;
+          color: #495050;
+        }
+      }
+
+      .name {
+        margin: 25px;
+
+        h2 {
+          font-size: 20px;
+          margin-bottom: 5px;
+        }
+      }
+      span {
+        color: #495050;
+      }
+    }
+    &:hover span,
+    p {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.INHouse {
+  background-image: url("../../../../public/images/inhouse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+
+  .HouseContainer {
+    max-width: 85%;
+    margin: auto;
+
+    .bottom {
+      padding: 70px 0;
+
+      img {
+        margin-right: 30px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+}

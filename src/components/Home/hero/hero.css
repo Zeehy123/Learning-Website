@@ -1,0 +1,55 @@
+.hero {
+  background-image: url("../../../../public/images/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: #fff;
+}
+.container {
+  max-width: 85%;
+
+  .hero-head {
+    width: 50%;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #495050;
+
+    h3 {
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 40px;
+      margin: 20px 0;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 18px;
+    }
+    .pbutton {
+      padding: 17px 30px;
+      background-color: #899997;
+      color: white;
+      font-weight: 600;
+      border: none;
+      margin: 30px 10px 0 0;
+      border-radius: 3px;
+      cursor: pointer;
+      box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+      transition: 0.5s;
+    }
+  }
+}
+.margin {
+  margin-top: 40.3%;
+}

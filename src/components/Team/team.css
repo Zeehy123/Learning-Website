@@ -1,0 +1,62 @@
+.team {
+  padding: 80px 0;
+  background-image: url("../../../public/images/team/teambg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: #fff;
+
+  .Tcontainer {
+    max-width: 80%;
+    margin: auto;
+
+    h3 {
+      font-size: 35px;
+    }
+  }
+}
+.members {
+  max-width: 80%;
+  margin: auto;
+  .items {
+    transition: 0.5s;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:hover {
+      background-color: #495050;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .details {
+    padding: 30px;
+    text-align: center;
+
+    h2 {
+      font-weight: 500;
+      font-size: 20px;
+      transition: 0.5s;
+    }
+
+    p {
+      font-size: 15px;
+      color: grey;
+      margin-top: 10px;
+      transition: 0.5s;
+    }
+    &:hover {
+      color: #000;
+    }
+  }
+}

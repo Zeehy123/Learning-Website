@@ -1,0 +1,31 @@
+.pricehome {
+  padding: 80px 0;
+
+  .Pcontainer {
+    max-width: 85%;
+    margin: auto;
+
+    .items {
+      box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+      background-color: #fff;
+      padding: 40px;
+      text-align: center;
+
+      h1 {
+        font-size: 50px;
+        margin: 20px 0;
+        color: #495050;
+
+        span {
+          font-size: 20px;
+          margin-right: 5px;
+          color: black;
+        }
+      }
+      p {
+        color: grey;
+        margin: 40px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.AllCourse {
+  background-image: url("../../../public/images/Courses2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: black;
+
+  .heading {
+    width: 40%;
+    position: absolute;
+    right: 55%;
+    bottom: 40%;
+    text-align: left;
+    h3 {
+      color: #495050;
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+}
