@@ -20,7 +20,7 @@
     text-align: left;
     h3 {
       color: #495050;
-      font-size: 25px;
+      font-size: 25px !important;
       line-height: 35px;
     }
   }

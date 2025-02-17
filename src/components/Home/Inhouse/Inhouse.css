@@ -17,10 +17,10 @@
         margin-right: 30px;
       }
       h1 {
-        font-size: 50px;
+        font-size: 50px !important;
       }
       h3 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 500;
       }
     }

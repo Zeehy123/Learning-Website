@@ -29,12 +29,12 @@
       text-transform: uppercase;
     }
     h1 {
-      font-size: 40px;
+      font-size: 40px !important;
       margin: 20px 0;
       text-transform: capitalize;
     }
     p {
-      font-size: 18px;
+      font-size: 18px !important;
     }
     .pbutton {
       padding: 17px 30px;

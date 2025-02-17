@@ -24,7 +24,7 @@
       text-transform: uppercase;
     }
     h1 {
-      font-size: 40px;
+      font-size: 40px !important;
       margin: 20px 0;
       text-transform: capitalize;
     }
@@ -49,12 +49,12 @@
           height: 70px;
         }
         h2 {
-          font-size: 20px;
+          font-size: 20px !important;
           margin-bottom: 15px;
         }
         p {
           letter-spacing: 1px;
-          font-size: 17px;
+          font-size: 17px !important;
           color: #837f7f99;
 
           &:hover {

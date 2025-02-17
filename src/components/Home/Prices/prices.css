@@ -12,12 +12,12 @@
       text-align: center;
 
       h1 {
-        font-size: 50px;
+        font-size: 50px !important;
         margin: 20px 0;
         color: #495050;
 
         span {
-          font-size: 20px;
+          font-size: 20px !important;
           margin-right: 5px;
           color: black;
         }
