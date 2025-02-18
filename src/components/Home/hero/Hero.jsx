@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero">
-        <div className="container">
+        <div className="Hcontainer">
           <div className="hero-head">
             <h3>Welcome to EduSphere</h3>
             <h1>Your Trusted Partner in Online Education Excellence</h1>
