@@ -5,7 +5,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
   return (
     <div className="header">
-      <div className="logo">
+      <div className="hlogo">
         <h1>EDUSPHERE</h1>
         <span>ONLINE LEARNING AND EDUCATIONAL SPACE</span>
       </div>

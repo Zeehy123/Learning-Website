@@ -7,14 +7,14 @@
   margin: 40px 30px;
 }
 
-.logo {
+.hlogo {
   display: flex;
   flex-direction: column;
   /* padding: 20px 0; */
   margin-left: 100px;
   color: white;
 }
-.logo h1 {
+.hlogo h1 {
   margin: 0;
   font-size: 35px !important;
   font-weight: 900;
@@ -64,7 +64,7 @@
 
 /* -----Responsiveness-------- */
 @media screen and (max-width: 1024px) {
-  .logo {
+  .hlogo {
     display: flex;
     flex-direction: column;
 
