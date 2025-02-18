@@ -72,7 +72,7 @@
 
 @media screen and (max-width: 768px) {
   .hero-head {
-    top: 50%;
+    top: 55%;
   }
   .margin {
     margin-top: 75.3%;
@@ -84,8 +84,31 @@
     height: 40vh;
   }
   .hero {
-    background-position: left;
+    background-position: top;
     padding-top: 50%;
-    height: 80vh;
+    /* height: 80vh; */
+  }
+  .hero-head {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-head {
+    right: 20%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .margin {
+    height: 60vh;
+  }
+  .hero-head h1 {
+    font-size: 21px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-head h1 {
+    font-size: 18px !important;
   }
 }
