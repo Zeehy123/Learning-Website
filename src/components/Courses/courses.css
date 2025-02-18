@@ -12,7 +12,7 @@
 
       .items {
         background-color: #fff;
-        padding: 30px;
+        padding: 20px;
         text-align: center;
 
         .img {
@@ -33,7 +33,7 @@
           text-align: left;
 
           h1 {
-            font-size: 30px !important;
+            font-size: 25px !important;
             font-weight: 500;
             line-height: 45px;
           }
