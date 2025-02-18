@@ -53,3 +53,41 @@
 .margin {
   margin-top: 40.3%;
 }
+/* -----Responsiveness-------- */
+@media screen and (max-width: 1024px) {
+  .hero-head {
+    right: 15px;
+    top: 55%;
+  }
+  .margin {
+    margin-top: 50.3%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .hero-head {
+    width: 40%;
+  }
+  .margin {
+    margin-top: 60.3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-head {
+    top: 50%;
+  }
+  .margin {
+    margin-top: 75.3%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: left;
+    padding-top: 50%;
+    height: 80vh;
+  }
+}
