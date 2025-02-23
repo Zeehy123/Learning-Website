@@ -101,7 +101,7 @@
   .header {
     position: relative;
     margin: 0;
-    background-color: #899997;
+    /* background-color: #899997; */
   }
   .header ul.head-list {
     display: none;
