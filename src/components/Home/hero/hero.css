@@ -55,7 +55,7 @@
 @media screen and (max-width: 1024px) {
   .hero-head {
     right: 15px;
-    top: 55%;
+    top: 60%;
   }
   .margin {
     margin-top: 50.3%;
@@ -64,6 +64,7 @@
 @media screen and (max-width: 840px) {
   .hero-head {
     width: 40%;
+    top: 63%;
   }
   .margin {
     margin-top: 60.3%;

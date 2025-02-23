@@ -64,6 +64,12 @@
 
 /* -----Responsiveness-------- */
 @media screen and (max-width: 1024px) {
+  .header {
+    margin: 20px 25px;
+  }
+  .start {
+    padding: 20px 90px;
+  }
   .hlogo {
     display: flex;
     flex-direction: column;

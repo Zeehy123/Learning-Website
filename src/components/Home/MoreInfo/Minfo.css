@@ -6,68 +6,94 @@
   margin: auto;
   justify-content: space-between;
   max-width: 85%;
+}
 
-  .right {
-    width: 50%;
+.right {
+  width: 50%;
+}
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.left {
+  margin-top: 20px;
+  padding: 90px 60px;
+}
+.left h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.left h1 {
+  font-size: 40px !important;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.item {
+  display: flex;
+  gap: 10px;
+  width: 90%;
+  margin-top: 20px;
+  transition: 0.5s;
+  padding: 20px;
+  background-color: #fff;
+}
+.item img {
+  width: 70px;
+  height: 70px;
+}
+.item h2 {
+  font-size: 20px !important;
+  margin-bottom: 15px;
+}
+.item p {
+  letter-spacing: 1px;
+  font-size: 17px !important;
+  color: #837f7f99;
+}
+.item p:hover {
+  color: #ffff;
+}
+.item:hover {
+  background-color: #6c7474;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+/* ----------Responsiveness----------------------- */
+@media screen and (max-width: 1024px) {
+  .left h1 {
+    font-size: 30px !important;
+  }
+  .items {
+    margin-top: 30px;
+  }
+  .item {
+    padding: 10px;
+
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+      width: 60px;
+      height: 60px;
     }
   }
-  .left {
-    margin-top: 20px;
-    padding: 90px 60px;
-    h3 {
-      font-weight: 600;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    h1 {
-      font-size: 40px !important;
-      margin: 20px 0;
-      text-transform: capitalize;
-    }
-
-    .items {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      margin-top: 50px;
-
-      .item {
-        display: flex;
-        gap: 10px;
-        width: 90%;
-        margin-top: 20px;
-        transition: 0.5s;
-        padding: 20px;
-        background-color: #fff;
-
-        img {
-          width: 70px;
-          height: 70px;
-        }
-        h2 {
-          font-size: 20px !important;
-          margin-bottom: 15px;
-        }
-        p {
-          letter-spacing: 1px;
-          font-size: 17px !important;
-          color: #837f7f99;
-
-          &:hover {
-            color: #ffff;
-          }
-        }
-        &:hover {
-          background-color: #6c7474;
-          color: #fff;
-          cursor: pointer;
-          box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
-        }
-      }
-    }
-  }
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 520px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 350px) {
 }
