@@ -67,8 +67,11 @@
   .header {
     margin: 20px 25px;
   }
+  .button {
+    font-size: 15px !important;
+  }
   .start {
-    padding: 20px 90px;
+    /* padding: 20px 90px; */
   }
   .hlogo {
     display: flex;
@@ -86,10 +89,11 @@
 }
 @media screen and (max-width: 840px) {
   .start {
-    padding: 27px 50px;
+    padding: 30px 20px 19px 20px;
+    width: 100px;
 
     h4 {
-      font-size: 17px !important;
+      font-size: 13px !important;
     }
   }
 }
@@ -123,7 +127,8 @@
   }
   .start {
     clip-path: none;
-    padding: 27px 70px;
+    padding: 27px 20px 19px 20px;
+    margin-right: 25px;
   }
 }
 @media screen and (max-width: 520px) {

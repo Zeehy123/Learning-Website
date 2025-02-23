@@ -12,7 +12,7 @@ const Hero = () => {
               "Beyond distant lands, where words take form, far from the realms
               of Vokalia and Consonantia, reside the unseen stories."
             </p>
-            <div className="button">
+            <div className="hbutton">
               <button className="pbutton">
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>
