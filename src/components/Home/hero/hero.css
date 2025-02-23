@@ -49,7 +49,7 @@
   transition: 0.5s;
 }
 .margin {
-  margin-top: 40.3%;
+  margin-top: 45.3%;
 }
 /* -----Responsiveness-------- */
 @media screen and (max-width: 1024px) {
@@ -85,12 +85,12 @@
 
 @media screen and (max-width: 520px) {
   .margin {
-    height: 70vh;
+    height: 20vh;
   }
   .hero {
     background-position: right;
     padding-top: 50%;
-    height: 80vh;
+    /* height: 80vh; */
   }
   .hero-head {
     width: 70%;
@@ -99,7 +99,7 @@
 @media screen and (max-width: 480px) {
   .hero-head {
     right: 20%;
-    top: 50%;
+    top: 58%;
   }
 }
 

@@ -129,30 +129,38 @@
     clip-path: none;
     padding: 27px 20px 19px 20px;
     margin-right: 25px;
+    background-color: unset;
   }
 }
 @media screen and (max-width: 520px) {
+  .header {
+    margin-top: 35px;
+    span {
+      font-size: 12px !important;
+    }
+  }
   .start {
-    padding: 27px 70px;
+    padding: 15px 20px 10px 13px;
   }
   .toggle {
-    right: -20px;
-    top: -20px;
+    top: -29px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .start {
-    padding: 27px 50px;
+    padding: 20px 20px 20px 10px;
+    background-color: unset;
   }
   .toggle {
     right: -25px;
+    top: -25px;
   }
 }
 @media screen and (max-width: 400px) {
   .header {
     padding: 20px;
-
+    margin-top: 35px;
     span {
       font-size: 12px !important;
     }
