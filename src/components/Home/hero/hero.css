@@ -85,12 +85,12 @@
 
 @media screen and (max-width: 520px) {
   .margin {
-    height: 20vh;
+    height: 40vh;
   }
   .hero {
     background-position: right;
     padding-top: 50%;
-    /* height: 80vh; */
+    height: 80vh;
   }
   .hero-head {
     width: 70%;
@@ -100,6 +100,9 @@
   .hero-head {
     right: 20%;
     top: 58%;
+  }
+  .margin {
+    height: 50vh;
   }
 }
 
