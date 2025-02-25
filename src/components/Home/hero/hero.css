@@ -90,7 +90,7 @@
   .hero {
     background-position: right;
     padding-top: 50%;
-    height: 80vh;
+    height: 100vh;
   }
   .hero-head {
     width: 70%;
@@ -116,7 +116,11 @@
 }
 
 @media screen and (max-width: 350px) {
-  .hero-head h1 {
-    font-size: 18px !important;
+  .hero-head {
+    top: 62%;
+
+    h1 {
+      font-size: 16px !important;
+    }
   }
 }

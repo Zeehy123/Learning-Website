@@ -36,7 +36,7 @@ export const AllCourse = [
   {
     id: 2,
     image: "../images/courses/c2.png",
-    coursesName: "Learn Ethical Hacking : Begiiner to Advanced",
+    coursesName: "Learn Ethical Hacking : Beginner to Advanced",
     Teacher: [
       {
         image: "../images/homeInfo.jpg",

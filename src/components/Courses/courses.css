@@ -1,76 +1,155 @@
 .containerCourse {
   max-width: 85%;
   margin: auto;
+}
+.containerCourse .courses {
+  padding: 50px 0;
+}
+.courses .box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
 
-  .courses {
-    padding: 50px 0;
+.Citems {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
 
-    .box {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+.Citems .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #495050;
+  padding: 15px;
+}
+.Citems img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text {
+  margin-left: 15px;
+  text-align: left;
+}
+.text h1 {
+  font-size: 25px !important;
+  font-weight: 500;
+  line-height: 45px;
+}
+.text .rating {
+  margin: 20px 0;
+  color: #495050;
+}
 
-      .items {
-        background-color: #fff;
-        padding: 20px;
-        text-align: center;
+.rating i {
+  font-size: 13px !important;
+  margin-right: 5px;
+}
 
-        .img {
-          width: 80px;
-          height: 80px;
-          border-radius: 50%;
-          background-color: #495050;
-          padding: 15px;
+.details .bottom {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.bottom img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
 
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-        }
-        .text {
-          margin-left: 15px;
-          text-align: left;
+.pricing {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.pricing h3 {
+  font-weight: 500;
+  color: #495050;
+}
 
-          h1 {
-            font-size: 25px !important;
-            font-weight: 500;
-            line-height: 45px;
-          }
-          .rating {
-            margin: 20px 0;
-            color: #495050;
+/* -----Responsiveness-------- */
+@media screen and (max-width: 1024px) {
+  .courses.box {
+    gap: 15px;
+  }
+  .Citems {
+    padding: 10px;
 
-            i {
-              font-size: 13px !important;
-              margin-right: 5px;
-            }
-          }
-          .details {
-            .bottom {
-              display: flex;
-              align-items: center;
-              color: grey;
-              img {
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                margin-right: 20px;
-              }
-            }
-          }
-        }
-        .pricing {
-          margin: 30px 0;
-          background-color: #f8f8f8;
-          padding: 10px;
-
-          h3 {
-            font-weight: 500;
-            color: #495050;
-          }
-        }
-      }
+    .img {
+      width: 60px;
+      height: 60px;
     }
   }
+  .text {
+    margin-left: 10px;
+
+    h1 {
+      font-size: 20px !important;
+    }
+  }
+  .pricing {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 840px) {
+  .heading {
+    h1 {
+      font-size: 40px !important;
+    }
+  }
+  .courses.box {
+    gap: 20px;
+  }
+  .Citems {
+    .img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .text {
+    h1 {
+      font-size: 17px !important;
+      line-height: 35px;
+    }
+  }
+  .rating {
+    margin: 15px 0;
+    i {
+      font-size: 10px;
+    }
+  }
+  .bottom img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .pricing h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .courses .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 520px) {
+  .heading h1 {
+    font-size: 28px !important;
+  }
+  .courses .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .text h1 {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 320px) {
 }

@@ -31,5 +31,4 @@ const MInfo = () => {
     </div>
   );
 };
-
 export default MInfo;
