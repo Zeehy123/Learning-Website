@@ -120,3 +120,7 @@ p {
 .marginbottom {
   margin-bottom: 50px;
 }
+
+.content::-webkit-scrollbar {
+  display: none;
+}

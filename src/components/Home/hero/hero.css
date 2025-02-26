@@ -97,6 +97,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .hero {
+    height: 90vh;
+  }
   .hero-head {
     right: 20%;
     top: 58%;
