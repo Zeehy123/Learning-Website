@@ -28,10 +28,32 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .INHouse .HouseContainer .bottom {
+    padding: 50px 0;
+
+    h1 {
+      font-size: 25px !important;
+    }
+    h3 {
+      font-size: 18px !important;
+    }
+  }
 }
 @media screen and (max-width: 840px) {
 }
 @media screen and (max-width: 768px) {
+  .INHouse {
+    width: 90%;
+    .HouseContainer {
+      /* display: flex; */
+      overflow-x: auto;
+      white-space: nowrap;
+      gap: 15px;
+      padding: 10px;
+      scroll-snap-type: x mandatory;
+      width: 100%;
+    }
+  }
 }
 @media screen and (max-width: 520px) {
 }
