@@ -45,7 +45,8 @@
   .INHouse {
     width: 90%;
     .HouseContainer {
-      /* display: flex; */
+      display: flex;
+      scroll-behavior: smooth;
       overflow-x: auto;
       white-space: nowrap;
       gap: 15px;
