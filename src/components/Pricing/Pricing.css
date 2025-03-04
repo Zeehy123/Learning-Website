@@ -12,3 +12,18 @@
   padding-right: 50px;
   color: black;
 }
+/* -----Responsiveness-------- */
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 520px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 320px) {
+}

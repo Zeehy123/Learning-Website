@@ -31,16 +31,59 @@
 }
 /* -----Responsiveness-------- */
 @media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media screen and (max-width: 840px) {
+  .pricehome .Pcontainer {
+    max-width: 95%;
+
+    .items {
+      padding: 30px;
+
+      h1 {
+        font-size: 40px !important;
+      }
+      p {
+        margin: 30px 0;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 520px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pricehome .Pcontainer {
+    max-width: 85%;
+    .items {
+      padding: 30px;
+      width: 80%;
+      h1 {
+        font-size: 30px !important;
+      }
+      p {
+        font-size: 18px !important;
+      }
+    }
+  }
 }
 @media screen and (max-width: 480px) {
 }
 @media screen and (max-width: 400px) {
+  .pricehome .Pcontainer {
+    max-width: 85%;
+    .items {
+      padding: 20px;
+      width: 100%;
+    }
+  }
 }
 @media screen and (max-width: 320px) {
 }
