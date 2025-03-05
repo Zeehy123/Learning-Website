@@ -28,7 +28,7 @@ const AllCourses = () => {
           <div className="courses">
             <div className="box">
               {AllCourse.map((it) => (
-                <div className="items">
+                <div className="Citems">
                   <div className="content flex">
                     <div className="top-left">
                       <div className="img">
