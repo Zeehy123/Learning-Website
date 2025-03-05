@@ -57,6 +57,7 @@
       }
       .right {
         padding: 60px 50px;
+        width: 100%;
 
         p,
         span {
@@ -89,6 +90,16 @@
       font-size: 15px !important;
     }
   }
+  .chooseUs .chooseContainer {
+    max-width: 90%;
+    .flex .right {
+      padding: 40px 30px;
+
+      p {
+        font-size: 18px !important;
+      }
+    }
+  }
 }
 @media screen and (max-width: 840px) {
   .about .Acontainer .aboutheading {
@@ -96,6 +107,26 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .chooseUs .chooseContainer {
+    .flex {
+      .left {
+        width: 80%;
+      }
+      .right {
+        padding: 30px 20px;
+
+        p {
+          font-size: 15px !important;
+        }
+        ul {
+          padding: 20px 10px;
+          li {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 520px) {
   .about {
@@ -109,6 +140,11 @@
     }
     p {
       font-size: 12px !important;
+    }
+  }
+  .chooseUs .chooseContainer {
+    .flex {
+      flex-direction: column;
     }
   }
 }
