@@ -31,8 +31,10 @@
 }
 /* -----Responsiveness-------- */
 @media screen and (max-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
+  .pricehome {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }
 @media screen and (max-width: 840px) {
@@ -52,13 +54,17 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
+  .pricehome {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
 @media screen and (max-width: 520px) {
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
+  .pricehome {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   .pricehome .Pcontainer {
     max-width: 85%;

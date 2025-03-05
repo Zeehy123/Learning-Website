@@ -78,16 +78,52 @@
 }
 /* -----Responsiveness-------- */
 @media screen and (max-width: 1024px) {
+  .about .Acontainer .aboutheading {
+    h3 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 15px !important;
+    }
+  }
 }
 @media screen and (max-width: 840px) {
+  .about .Acontainer .aboutheading {
+    top: 30%;
+  }
 }
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 520px) {
+  .about {
+    width: 104%;
+  }
+  .about .Acontainer .aboutheading {
+    width: 50% !important;
+
+    h3 {
+      font-size: 15px !important;
+    }
+    p {
+      font-size: 12px !important;
+    }
+  }
 }
 @media screen and (max-width: 480px) {
 }
 @media screen and (max-width: 400px) {
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
+  .about {
+    background-position: right;
+    height: 100vh;
+  }
+  .about .Acontainer {
+    .aboutheading {
+      left: 50%;
+      h3 {
+        font-size: 12px !important;
+      }
+    }
+  }
 }
